@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/basiliqueshow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/basiliquepanorama"
+            android:id="@+id/imageView"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="false"
+            android:scaleX="2" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/arrow"
+            app:srcCompat="@drawable/arrows"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="125dp"
+            android:textColorLink="?attr/actionModeSplitBackground" />
+
+        <TextView
+            android:text="@string/basilique"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textSize="20sp"
+            android:id="@+id/titre"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold|italic"
+            android:paddingTop="10dp" />
+
+        <TextView
+            android:text="@string/basiliquedescription"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/textView"
+            android:layout_weight="1"
+            android:layout_below="@+id/titre"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:elevation="1dp"
+        android:layout_height="50dp">
+
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="130dp" />
+
+        <TextView
+            android:text="@string/retour"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/retour"
+            android:layout_weight="1"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary" />
+
+        <Space
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="@string/localisation"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/localisation"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_weight="1" />
+
+        <Space
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="10dp" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

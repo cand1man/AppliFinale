@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.alexis_oliveira.testappligooglemap.MapsActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.example.alexis_oliveira.testappligooglemap.MapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:id="@+id/arrow"
+        android:src="@drawable/arrows"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="425dp" />
+
+</RelativeLayout>

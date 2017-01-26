@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Nango</string>
+    <string name="phrase">Cliquez et visitez Nancy!</string>
+
+    <string name="basilique">Basilique Saint-Epvre</string>
+    <string name="cathedral">Cathedrale</string>
+    <string name="porte">Porte de la Craffe</string>
+    <string name="pepiniere">Parc de la Pépinière</string>
+    <string name="place">Place Stanislas</string>
+    <string name="eglise">Eglise Saint Sébastien</string>
+    <string name="bergeret">Immeuble Bergeret</string>
+    <string name="villa">Villa Majorelle</string>
+    <string name="tour">Tour de la Commanderie</string>
+
+    <string name="addr_basilique">Place Saint-Epvre, Nancy</string>
+    <string name="addr_cathedral">Place Monseigneur Ruch, Nancy</string>
+    <string name="addr_porte">106 Grande Rue, Nancy</string>
+    <string name="addr_pepiniere">Rond-Point du Président Husson, Nancy</string>
+    <string name="addr_place">Place Stanislas, Nancy</string>
+    <string name="addr_eglise">76 Rue des Ponts, Nancy</string>
+    <string name="addr_bergeret">24 Rue Lionnois, Nancy</string>
+    <string name="addr_villa">1 Rue Louis Majorelle, Nancy</string>
+    <string name="addr_tour">84 Impasse Clerin, Nancy</string>
+
+    <string name="retour">Retour</string>
+    <string name="localisation">Localisation</string>
+
+    <string name="placedescription">La place Stanislas est une place appartenant à un ensemble urbain classique situé à Nancy, dans la région Lorraine, en France, qui est inscrit au patrimoine mondial de lUNESCO. Voulue par le duc de Lorraine Stanislas Leszczyński, elle a été construite entre 1751 et 1755 sous la direction de larchitecte Emmanuel Héré. Son nom et sa statue centrale ont évolué au gré des bouleversements de lhistoire de France ; elle porte son nom actuel depuis 1831.</string>
+    <string name="basiliquedescription">La Basilique Saint-Epvre de Nancy est une basilique de style néogothique construite au XIXᵉ siècle en pierre dEuville, située place Saint-Epvre dans la Vieille-Ville. La basilique est dédiée à Saint Epvre, évêque de Toul.</string>
+    <string name="portedescription">La porte de la Craffe est une porte de Nancy, imposant vestige des fortifications médiévales, érigée au XIVᵉ siècle au nord de la ville-vieille. Elle est classée monument historique depuis juillet 1886. </string>
+    <string name="pepinieredescription">Le parc de la Pépinière, couramment appelé la Pépinière, ou plus familièrement par apocope la Pep, est un jardin public de Nancy situé à proximité de la place Stanislas, le long de la place de la Carrière et des anciennes fortifications.</string>
+    <string name="cathedraldescription">La cathédrale Notre-Dame-de-l’Annonciation et Saint-Sigisbert de Nancy est une cathédrale catholique romaine située place Monseigneur-Ruch à Nancy, au sein du département de Meurthe-et-Moselle, en région Lorraine.</string>
+    <string name="tourdescription">La Tour de la Commanderie Saint-Jean-du-Vieil-Aître est le plus vieil édifice visible de Nancy. Datant du XIIᵉ siècle, cest lun des rares monuments de style roman de la ville.</string>
+    <string name="villadescription">La villa Majorelle est une maison de maître, construite de 1901 à 1902, située à Nancy, dans le style École de Nancy. Cest une pièce maîtresse de larchitecture, typique de lArt nouveau français.</string>
+    <string name="bergeretdescription">Lhôtel Bergeret est un hôtel particulier dessiné dans le style École de Nancy par larchitecte Lucien Weissenburger.
+Construits entre 1903 et 1905 pour limprimeur Albert Bergeret, les murs accueillent aujourdhui des services de lUniversité de Lorraine.</string>
+    <string name="eglisedescription">Au moment de la création de la Ville-Neuve à la fin du XVIe siècle par décision du duc Charles III de Lorraine, il fut décidé dy établir trois paroisses qui auraient pour patrons saint Sébastien, saint Roch et saint Nicolas. Le 21 novembre 1593, la paroisse Saint-Sébastien est créée dans cette Ville-Neuve de Nancy. À la suite des guerres et faute dargent la construction du sanctuaire est retardée. Du projet initial, une unique chapelle est édifiée, consacrée à saint Sébastien.</string>
+</resources>
